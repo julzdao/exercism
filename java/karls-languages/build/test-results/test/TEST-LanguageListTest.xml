@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LanguageListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-09-30T18:11:36.554Z" hostname="Mac.fritz.box" time="0.035">
+  <properties/>
+  <testcase name="The isEmpty method returns true when the list contains no languages" classname="LanguageListTest" time="0.027"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
