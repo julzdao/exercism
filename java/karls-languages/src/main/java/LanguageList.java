@@ -3,7 +3,7 @@ import java.util.List;
 
 public class LanguageList {
     private final List<String> languages = new ArrayList<>();
-    private final String[] excitingLanguages = {"Java", "Kotlin"};
+    private static final String[] EXCITING_LANGUAGES = {"Java", "Kotlin"};
 
     /**
      * Returns whether the languages list is empty.
@@ -60,7 +60,7 @@ public class LanguageList {
      * @return true if the current languages list contain any of the exciting languages, false otherwise.
      */
     public boolean isExciting() {
-        for(String excitingLanguage : this.excitingLanguages) {
+        for(String excitingLanguage : EXCITING_LANGUAGES) {
            if(this.languages.contains(excitingLanguage)) {
                return true;
            }
