@@ -1,5 +1,22 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
+
+# Ignore everything at the root...
+/*
+
+# ...except these
+!/.gitignore
+!/solutions/
+
+
+# whole tracks
+/java
+/javascript
+/python
+
+/.idea*
+.lock*
+
 # dependencies
 node_modules
 
